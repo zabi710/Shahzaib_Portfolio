@@ -5,7 +5,7 @@ export default function About() {
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
 
         <p className="text-gray-300 leading-relaxed">
-          I’m Shahzaib, a MERN Stack Developer trained at PNY Trainings,
+          I'm Shahzaib, a MERN Stack Developer trained at PNY Trainings,
           passionate about building clean and scalable applications. I enjoy
           transforming ideas into digital experiences that are fast, responsive,
           and user-friendly.

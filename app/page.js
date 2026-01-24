@@ -1,9 +1,9 @@
-import Hero from "../app/components/Hero";
-import AboutSection from "../app/components/AboutSection";
-import ProjectsSection from "../app/components/ProjectSection";
-import ContactSection from "../app/components/ContactSection";
-import SocialSection from "../app/components/SocialSection";
-// import Footer from "../app/components/Footer";
+import Hero from "./components/Hero";
+import AboutSection from "./components/AboutSection";
+import ProjectsSection from "./components/ProjectSection";
+import ContactSection from "./components/ContactSection";
+import SocialSection from "./components/SocialSection";
+// import Footer from "./components/Footer";
 
 export default function HomePage() {
   return (
