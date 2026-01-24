@@ -1,12 +1,21 @@
-import React from 'react'
+// import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import AboutSection from "@/components/AboutSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import ContactSection from "@/components/ContactSection";
+import SocialSection from "@/components/SocialSection";
+import Footer from "@/components/Footer";
 
-const page = () => {
+export default function HomePage() {
   return (
-    <div className='bg-amber-600 min-h-screen '>
-    <h1 className='text-3xl text-rose-500 font-bold'>Hello Shahzaib</h1>
-      
-    </div>
-  )
+    <main className="bg-gradient-to-br from-black via-zinc-900 to-neutral-800 text-white">
+      {/* <Navbar /> */}
+      <Hero />
+      <AboutSection />
+      <ProjectsSection />
+      <ContactSection />
+      <SocialSection />
+      <Footer />
+    </main>
+  );
 }
-
-export default page
