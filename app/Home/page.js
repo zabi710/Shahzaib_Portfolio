@@ -1,7 +1,7 @@
 // import Navbar from "@/components/Navbar";
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
-import ProjectsSection from "../components/ProjectsSection";
+import ProjectSection from "../components/ProjectSection";
 import ContactSection from "../components/ContactSection";
 import SocialSection from "../components/SocialSection";
 import Footer from "../components/Footer";
@@ -12,7 +12,7 @@ export default function HomePage() {
       {/* <Navbar /> */}
       <Hero />
       <AboutSection />
-      <ProjectsSection />
+      <ProjectSection />
       <ContactSection />
       <SocialSection />
       <Footer />
