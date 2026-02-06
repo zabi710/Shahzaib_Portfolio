@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
@@ -19,9 +22,12 @@ export default function Hero() {
         </p>
 
         <div className="mt-8 flex gap-4">
-          <button className="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-700 transition text-white">
+          <Link
+            href="/projects"
+            className="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-700 transition text-white"
+          >
             View Projects
-          </button>
+          </Link>
 
           <button className="px-6 py-3 rounded-xl border border-white/20 text-white hover:bg-white/10 transition">
             Download CV
@@ -29,11 +35,20 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* RIGHT (Visual Placeholder) */}
+      {/* RIGHT - Profile Image */}
       <div className="relative">
-        <div className="aspect-square rounded-3xl bg-gradient-to-br from-purple-500/30 to-pink-500/30 backdrop-blur-xl border border-white/10 flex items-center justify-center">
-          <span className="text-white/60">3D Avatar / Illustration</span>
+        <div className="aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+          <Image
+            src="/profile.jpg"
+            alt="Shahzaib - Full Stack Developer"
+            width={500}
+            height={500}
+            priority
+            className="w-full h-full object-cover"
+          />
         </div>
+        {/* Gradient overlay effect */}
+        <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-purple-500/20 to-transparent pointer-events-none"></div>
       </div>
     </section>
   );

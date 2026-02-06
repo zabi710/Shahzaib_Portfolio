@@ -1,0 +1,18 @@
+# Robots.txt for Shahzaib Portfolio
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.next/
+
+Sitemap: https://mianshahzaib.vercel.app/sitemap.xml
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay
+Crawl-delay: 1

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ProjectsSection() {
   return (
     <section className="py-24 min-h-screen px-8">
@@ -18,12 +20,12 @@ export default function ProjectsSection() {
           ))}
         </div>
 
-        <a
+        <Link
           href="/projects"
           className="inline-block mt-10 text-purple-400 hover:underline"
         >
           View all projects →
-        </a>
+        </Link>
       </div>
     </section>
   );

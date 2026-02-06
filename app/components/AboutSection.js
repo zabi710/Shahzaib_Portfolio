@@ -14,7 +14,7 @@ export default function About() {
         <div className="mt-10 grid md:grid-cols-2 gap-6">
           <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
             <h3 className="font-semibold mb-2">Frontend</h3>
-            <p className="text-gray-400">React, Next.js, Tailwind CSS</p>
+            <p className="text-gray-400">React, Next.js, Tailwind CSS <br /></p>
           </div>
 
           <div className="p-6 rounded-2xl bg-white/5 border border-white/10">

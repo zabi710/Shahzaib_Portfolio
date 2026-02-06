@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Shahzaib",
+  "title": "Full Stack Developer",
+  "description": "Full Stack Developer specializing in MERN Stack and Next.js",
+  "url": "https://mianshahzaib.vercel.app",
+  "jobTitle": "Full Stack Developer",
+  "knows": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "Express.js",
+    "Next.js",
+    "Tailwind CSS",
+    "Web Development"
+  ],
+  "sameAs": [
+    "https://github.com/mianshahzaib",
+    "https://linkedin.com/in/mianshahzaib",
+    "https://twitter.com/mianshahzaib"
+  ],
+  "workLocation": {
+    "@type": "Place",
+    "name": "Remote"
+  }
+}
