@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "enhance-image": "node image-enhance.js"
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
