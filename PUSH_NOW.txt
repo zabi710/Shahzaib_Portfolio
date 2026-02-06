@@ -1,0 +1,35 @@
+# GITHUB PUSH COMMAND - COPY & PASTE THIS
+
+## Step 1: Create Repository on GitHub
+1. Go to: https://github.com/new
+2. Repository name: `portfolio` or `my-portfolio`
+3. Make it PUBLIC
+4. Click "Create repository"
+
+## Step 2: Copy Your Repository Link
+You'll see something like:
+```
+https://github.com/YOUR_USERNAME/portfolio.git
+```
+
+## Step 3: Run This Command in PowerShell
+Replace YOUR_USERNAME with your actual GitHub username:
+
+```powershell
+cd D:\Nextjs\my_portfolio
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+git push -u origin main
+```
+
+## That's it! 🎉
+Your code is now on GitHub and will auto-deploy to Vercel!
+
+---
+
+## ALTERNATIVE: If You Already Have Credentials
+```powershell
+cd D:\Nextjs\my_portfolio
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+git push -u origin main
+```
